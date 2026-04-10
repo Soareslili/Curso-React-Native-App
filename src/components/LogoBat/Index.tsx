@@ -1,12 +1,15 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { styles } from './BatLogoStyle';
 
-import { styles } from '../Menu/Styles';
 
-export function Menu() {
+
+
+export function LogoBat() {
   return (
     <View style={styles.container}>
-        <Text>Menu</Text>
+      <Text style={styles.text}>LogoBat</Text>
+    
     </View>
   );
 }
